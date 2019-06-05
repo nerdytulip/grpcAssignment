@@ -37,6 +37,7 @@ func (ch *CalculatorHandler) ArmstrongNumber(ctx context.Context, request *calcu
 	return response, nil
 }
 
+//change
 // Server Streaming
 func (ch *CalculatorHandler) PrimeFactors(request *calculatorpb.CalculatorRequest, stream calculatorpb.CalculatorService_PrimeFactorsServer) error {
 	number := request.GetNumber()
